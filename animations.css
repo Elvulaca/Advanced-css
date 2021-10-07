@@ -1,0 +1,55 @@
+.sun{
+    border-radius: 50%;
+    width:100px;
+    background-color: yellow;
+    line-height: 0;
+    padding: 50px 0;
+}
+.sky{
+    background-color: skyblue;
+    width: 100%;
+    height: 200px;
+}
+.grass{
+    height: 80px;
+    width:100%;
+    background-color: green;
+}
+.road{
+    width:100%;
+    background-color: slategrey;
+    height: 260px;
+}
+.lines{
+    border: 7px dashed white;
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    top: 82%;
+    line-height: 0;
+}
+img{
+    position: absolute;
+    width: 75px;
+    bottom: 15px;
+    animation-name: myannie;
+    -moz-animation-name: myannie;
+    animation-delay: 2s;
+    -moz-animation-delay: 2s;;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 3;
+    animation-duration: 3s;
+    -moz-animation-duration: 3s;
+    animation-direction: normal;
+    animation-timing-function: ease-in-out;
+    animation-play-state: running;
+
+}
+@keyframes myannie{
+    from{
+left:0px
+    }
+    to{
+left:1600px
+    }
+}

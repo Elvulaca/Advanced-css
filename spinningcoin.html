@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+header{
+ background-color: black;   
+}
+.flexbox-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: left;
+    align-content: space-around;
+    
+
+}
+.flex1{
+    flex-shrink: inherit;
+}
+
+
+.flexone{
+   flex-shrink: 0;
+   width: 100px;
+  height: 100px;
+  justify-content: space-evenly;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  transform: rotate(360deg);
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+/*dont change*/
+.flextwo{
+    flex-grow: 2;
+    flex-shrink: 1;
+}
+.flexthree{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+    flex-grow: 2;
+    flex-shrink: 1;
+    -ms-flex-align: end;
+}
+.container2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: center;
+}
+.flexfour{
+    margin-right: 57%;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-content: center;
+    flex-grow: 2;
+    flex-shrink: 1;
+    -ms-flex-align: center;
+    background-repeat: no-repeat;
+    background-color: purple;
+}
+.flexfive{
+    margin-top: -50%;
+    margin-left: 18%;
+    flex-shrink: 0;
+    width: 100px;
+   height: 100px;
+   justify-content: space-evenly;
+   animation-name: spin;
+   animation-duration: 5000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   transform: rotate(360deg);
+ }
+ 
+ @keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+ }
+ .flexsix{
+    margin-left: 18%;
+    flex-shrink: 0;
+    width: 100px;
+   height: 100px;
+   justify-content: space-evenly;
+   animation-name: spin;
+   animation-duration: 5000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   transform: rotate(360deg);
+ }
+ 
+ @keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+ }
+.flexseven{
+    margin-left: 18%;
+    flex-shrink: 0;
+    width: 100px;
+   height: 100px;
+   justify-content: space-evenly;
+   animation-name: spin;
+   animation-duration: 5000ms;
+   animation-iteration-count: infinite;
+   animation-timing-function: linear;
+   transform: rotate(360deg);
+ }
+ 
+ @keyframes spin {
+     from {
+         transform:rotate(0deg);
+     }
+     to {
+         transform:rotate(360deg);
+     }
+ }
+
+
+    </style>
+</head>
+    
+<body>
+</html>
+<header>
+    <div class="flexbox-container">
+      <div class="flexbox-item flex1">
+        <img src="https://github.com/Nmuta/css_copycat/blob/master/images/ethiopia1.png?raw=true" height="100" width="100">
+      </div>
+      <div class="flexbox-item flexone">
+       <img src="https://github.com/Nmuta/css_copycat/blob/master/images/ethiopia1.png?raw=true" height="100" width="100">
+      </div>
+      <div class="flexbox-item flextwo">
+        <img src="https://github.com/Nmuta/css_copycat/blob/master/images/ethiopia1.png?raw=true" height="100" width="100">
+      </div>
+      <div class="flexbox-item flex three">
+        <img src="https://github.com/Nmuta/css_copycat/blob/master/images/ethiopia1.png?raw=true" height="100" width="100">
+      </div>
+    </div>
+  </header>
+    <div class="flexbox-container container2">
+      <div class="flexbox-item flexfour">
+        <img src="https://github.com/Nmuta/css_copycat/blob/master/images/usa1.png?raw=true" height="750" width="550">
+      </div>
+      <div class="flexbox-item flexfive">
+        <img src="https://github.com/Nmuta/css_copycat/blob/master/images/usa2.png?raw=true" height="100" width="100">
+      </div>
+      <div class="flexbox-item flexsix">
+        <img src="https://github.com/Nmuta/css_copycat/blob/master/images/usa2.png?raw=true" height="100" width="100">
+      </div>
+      <div class="flexbox-item flexseven">
+        <img src="https://github.com/Nmuta/css_copycat/blob/master/images/usa2.png?raw=true" height="100" width="100">
+      </div>
+    </div>
+</body>
